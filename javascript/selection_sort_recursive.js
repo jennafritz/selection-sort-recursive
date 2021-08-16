@@ -34,4 +34,12 @@ if (require.main === module) {
 module.exports = selectionSortRecursive;
 
 // Please add your pseudocode to this file
+  // if the array has 1 or fewer elements, just return the whole array
+  // otherwise, find the minimum element and remove it from the array
+  // call the recursive function again
+  // repeat until array length reaches 1, then return array (which will be the highest number)
+  // then, back up the stack, append each element in descending order to the front of the array
+  // and return the full array
+
+
 // And a written explanation of your solution
